@@ -1,0 +1,77 @@
+2025-10-21T09:24:24.795340Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWCP5JCwjFD6JyFsmMGjZvZsN3ure5Gtxgf6Bn4MCNy4FU
+2025-10-21T09:24:24.803909Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/1369
+2025-10-21T09:24:24.804159Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/1369
+2025-10-21T09:24:24.804319Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/1369
+2025-10-21T09:24:25.310641Z  WARN libp2p_kad::behaviour: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-kad-0.48.0\src\behaviour.rs:2591: Failed to trigger bootstrap: No known peers.
+2025-10-21T09:24:52.409152Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWNnWd7nvvDSisEjSHccRcWYzLRtcLnqxzkUgJ8fpGJxAN
+2025-10-21T09:24:52.418360Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/1438
+2025-10-21T09:24:52.418628Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/1438
+2025-10-21T09:24:52.418772Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/1438
+2025-10-21T09:24:52.930100Z  WARN libp2p_kad::behaviour: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-kad-0.48.0\src\behaviour.rs:2591: Failed to trigger bootstrap: No known peers.
+2025-10-21T09:29:08.606716Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWEAuzVGgDEZVwQWDVbB9KeSb4tDLUCQ7Uon39QWbpb5tW
+2025-10-21T09:29:08.610869Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:29:08.615268Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/2124
+2025-10-21T09:29:08.615500Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:18: Connection established with PeerId("12D3KooWNnWd7nvvDSisEjSHccRcWYzLRtcLnqxzkUgJ8fpGJxAN")
+2025-10-21T09:29:08.615641Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/2124
+2025-10-21T09:29:08.615749Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/2124
+2025-10-21T09:29:08.622539Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:29:09.115517Z  WARN libp2p_kad::behaviour: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-kad-0.48.0\src\behaviour.rs:2591: Failed to trigger bootstrap: No known peers.
+2025-10-21T09:29:33.643538Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:24: Other event occurred
+2025-10-21T09:29:33.643857Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:29:52.942084Z  WARN libp2p_kad::behaviour: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-kad-0.48.0\src\behaviour.rs:2591: Failed to trigger bootstrap: No known peers.
+2025-10-21T09:34:09.130145Z  WARN libp2p_kad::behaviour: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-kad-0.48.0\src\behaviour.rs:2591: Failed to trigger bootstrap: No known peers.
+2025-10-21T09:39:12.010986Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWCfSqsoD6HpGTp7qgGYsvBmtR829L6uCjZ5Vmc5TjWK8f
+2025-10-21T09:39:12.015155Z  WARN libp2p_kad::behaviour: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-kad-0.48.0\src\behaviour.rs:2591: Failed to trigger bootstrap: No known peers.
+2025-10-21T09:39:12.015558Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:39:12.019711Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/3017
+2025-10-21T09:39:12.019959Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:20: Connection established with PeerId("12D3KooWNnWd7nvvDSisEjSHccRcWYzLRtcLnqxzkUgJ8fpGJxAN")
+2025-10-21T09:39:12.020109Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/3017
+2025-10-21T09:39:12.020230Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/3017
+2025-10-21T09:39:12.026439Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:39:37.035860Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:33: Other event occurred
+2025-10-21T09:39:37.036206Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:43:16.247214Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWFzEtjKABbn5oqbP6eZNYRPTX3PDuSNEf2s5uAHGCSapU
+2025-10-21T09:43:16.251203Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:43:16.255568Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/11323
+2025-10-21T09:43:16.255804Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:20: Connection established with PeerId("12D3KooWNnWd7nvvDSisEjSHccRcWYzLRtcLnqxzkUgJ8fpGJxAN")
+2025-10-21T09:43:16.255974Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/11323
+2025-10-21T09:43:16.256108Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/11323
+2025-10-21T09:43:16.262068Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:43:32.126719Z ERROR libp2p_test::network::runtime: src\network\runtime.rs:21: Other event occurred
+2025-10-21T09:43:44.674423Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWJCywD9QCKVf3LCStQY3EaUfmZCpMpyuRQ7MKVvRwKgcN
+2025-10-21T09:43:44.683440Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/12076
+2025-10-21T09:43:44.683728Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/12076
+2025-10-21T09:43:44.683941Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/12076
+2025-10-21T09:43:45.198126Z  WARN libp2p_kad::behaviour: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-kad-0.48.0\src\behaviour.rs:2591: Failed to trigger bootstrap: No known peers.
+2025-10-21T09:43:46.718344Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:44:15.921955Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooW9qkDaCj35LLXSFL6eqeDpDDSEXA7Nc5HTYTmRL81N2bg
+2025-10-21T09:44:15.925991Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:44:15.930647Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/9314
+2025-10-21T09:44:15.930903Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:20: Connection established with PeerId("12D3KooWJCywD9QCKVf3LCStQY3EaUfmZCpMpyuRQ7MKVvRwKgcN")
+2025-10-21T09:44:15.931049Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/9314
+2025-10-21T09:44:15.931166Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/9314
+2025-10-21T09:44:15.937202Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:20: Connection established with PeerId("12D3KooW9qkDaCj35LLXSFL6eqeDpDDSEXA7Nc5HTYTmRL81N2bg")
+2025-10-21T09:44:40.954888Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:44:40.955193Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:45:28.376603Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWMazoCG5fYbZKxTaZawmuGZEkxFhjwRBPBRdkrpcfDEB3
+2025-10-21T09:45:28.380642Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:45:28.385026Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/5351
+2025-10-21T09:45:28.385269Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:20: Connection established with PeerId("12D3KooWJCywD9QCKVf3LCStQY3EaUfmZCpMpyuRQ7MKVvRwKgcN")
+2025-10-21T09:45:28.385449Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:38: Kademlia routing updated: peer=PeerId("12D3KooWJCywD9QCKVf3LCStQY3EaUfmZCpMpyuRQ7MKVvRwKgcN"), is_new_peer=true, addresses=[/ip4/192.168.1.120/tcp/12076/p2p/12D3KooWJCywD9QCKVf3LCStQY3EaUfmZCpMpyuRQ7MKVvRwKgcN], bucket_range=(Distance(57896044618658097711785492504343953926634992332820282019728792003956564819968), Distance(115792089237316195423570985008687907853269984665640564039457584007913129639935)), old_peer=None
+2025-10-21T09:45:28.385691Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/5351
+2025-10-21T09:45:28.385860Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/5351
+2025-10-21T09:45:28.391623Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:20: Connection established with PeerId("12D3KooWMazoCG5fYbZKxTaZawmuGZEkxFhjwRBPBRdkrpcfDEB3")
+2025-10-21T09:45:28.895611Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:45:30.921232Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:45:53.404233Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:48: Other event occurred
+2025-10-21T09:45:53.404512Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:50:28.905035Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:48: Other event occurred
+2025-10-21T09:50:28.905594Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:50:28.906024Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:50:28.906319Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:50:28.908316Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:20: Connection established with PeerId("12D3KooWJCywD9QCKVf3LCStQY3EaUfmZCpMpyuRQ7MKVvRwKgcN")
+2025-10-21T09:50:28.918853Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:20: Connection established with PeerId("12D3KooWMazoCG5fYbZKxTaZawmuGZEkxFhjwRBPBRdkrpcfDEB3")
+2025-10-21T09:50:30.956929Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:50:30.957365Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred
+2025-10-21T09:50:53.948061Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:48: Other event occurred
+2025-10-21T09:50:53.948346Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:36: Other event occurred

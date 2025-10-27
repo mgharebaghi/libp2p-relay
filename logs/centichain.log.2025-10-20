@@ -1,0 +1,38 @@
+2025-10-20T09:37:19.623533Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWS43UrwmHZweEZSG8AKcL6WyKjBQqU2TbLRt4uDLwaKqC
+2025-10-20T09:37:19.623738Z DEBUG libp2p_tcp: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-tcp-0.44.0\src\lib.rs:327: listening on 0.0.0.0:3369
+2025-10-20T09:37:19.627626Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWQAaYp5N8sDyxGYL6JZxnL6oVXJ4LSKs5azA4FfkLqZXs
+2025-10-20T09:37:19.627687Z DEBUG libp2p_tcp: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-tcp-0.44.0\src\lib.rs:327: listening on 0.0.0.0:3369
+2025-10-20T09:37:19.633121Z DEBUG Swarm::poll:Transport::poll: libp2p_tcp: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-tcp-0.44.0\src\lib.rs:548: New listen address address=/ip4/172.19.0.1/tcp/3369
+2025-10-20T09:37:19.633192Z TRACE Swarm::poll:Transport::poll: libp2p_tcp: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-tcp-0.44.0\src\lib.rs:81: Registering for port reuse ip=172.19.0.1 port=3369
+2025-10-20T09:37:19.633239Z DEBUG Swarm::poll: libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:1007: New listener address listener=ListenerId(2) address=/ip4/172.19.0.1/tcp/3369
+2025-10-20T09:37:19.633305Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/172.19.0.1/tcp/3369/p2p/12D3KooWS43UrwmHZweEZSG8AKcL6WyKjBQqU2TbLRt4uDLwaKqC
+2025-10-20T09:37:19.633382Z DEBUG Swarm::poll:Transport::poll: libp2p_tcp: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-tcp-0.44.0\src\lib.rs:548: New listen address address=/ip4/192.168.1.120/tcp/3369
+2025-10-20T09:37:19.633425Z TRACE Swarm::poll:Transport::poll: libp2p_tcp: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-tcp-0.44.0\src\lib.rs:81: Registering for port reuse ip=192.168.1.120 port=3369
+2025-10-20T09:37:19.633447Z DEBUG Swarm::poll: libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:1007: New listener address listener=ListenerId(2) address=/ip4/192.168.1.120/tcp/3369
+2025-10-20T09:37:19.633484Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/192.168.1.120/tcp/3369/p2p/12D3KooWS43UrwmHZweEZSG8AKcL6WyKjBQqU2TbLRt4uDLwaKqC
+2025-10-20T09:37:19.633537Z DEBUG Swarm::poll:Transport::poll: libp2p_tcp: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-tcp-0.44.0\src\lib.rs:548: New listen address address=/ip4/127.0.0.1/tcp/3369
+2025-10-20T09:37:19.633558Z TRACE Swarm::poll:Transport::poll: libp2p_tcp: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-tcp-0.44.0\src\lib.rs:81: Registering for port reuse ip=127.0.0.1 port=3369
+2025-10-20T09:37:19.633578Z DEBUG Swarm::poll: libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:1007: New listener address listener=ListenerId(2) address=/ip4/127.0.0.1/tcp/3369
+2025-10-20T09:37:19.633604Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/127.0.0.1/tcp/3369/p2p/12D3KooWS43UrwmHZweEZSG8AKcL6WyKjBQqU2TbLRt4uDLwaKqC
+2025-10-20T09:42:47.871821Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWKF4S5Nh6qbHRmyH8J7z6njnSuiTt9F6BUeq12NHUXM1C
+2025-10-20T09:42:47.876431Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWFbyuY2J4gTzxCTaDGE94YWdj2oj3ttYbhqKSpDuGU8Xt
+2025-10-20T09:42:47.882078Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/172.19.0.1/tcp/3369/p2p/12D3KooWKF4S5Nh6qbHRmyH8J7z6njnSuiTt9F6BUeq12NHUXM1C
+2025-10-20T09:42:47.882363Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/192.168.1.120/tcp/3369/p2p/12D3KooWKF4S5Nh6qbHRmyH8J7z6njnSuiTt9F6BUeq12NHUXM1C
+2025-10-20T09:42:47.882594Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/127.0.0.1/tcp/3369/p2p/12D3KooWKF4S5Nh6qbHRmyH8J7z6njnSuiTt9F6BUeq12NHUXM1C
+2025-10-20T09:45:12.811062Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWE8nsoVUKE2ahf6bTuY1xHPiPqg44j5STq1g9N3BuzMJy
+2025-10-20T09:45:12.815563Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWNjNAuGb8p5yXkDzoJ3XC4TG8WoZzjmzDvk9f1WMxsHKg
+2025-10-20T09:45:12.821981Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/172.19.0.1/tcp/1369/p2p/12D3KooWE8nsoVUKE2ahf6bTuY1xHPiPqg44j5STq1g9N3BuzMJy
+2025-10-20T09:45:12.822310Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/192.168.1.120/tcp/1369/p2p/12D3KooWE8nsoVUKE2ahf6bTuY1xHPiPqg44j5STq1g9N3BuzMJy
+2025-10-20T09:45:12.822502Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/127.0.0.1/tcp/1369/p2p/12D3KooWE8nsoVUKE2ahf6bTuY1xHPiPqg44j5STq1g9N3BuzMJy
+2025-10-20T09:47:23.993421Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWPYGtmipAS1tTPok6hCFCRdo43Rq27tAYcc8crczGGKuX
+2025-10-20T09:47:24.001981Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/172.19.0.1/tcp/1369/p2p/12D3KooWPYGtmipAS1tTPok6hCFCRdo43Rq27tAYcc8crczGGKuX
+2025-10-20T09:47:24.002299Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/192.168.1.120/tcp/1369/p2p/12D3KooWPYGtmipAS1tTPok6hCFCRdo43Rq27tAYcc8crczGGKuX
+2025-10-20T09:47:24.002517Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:16: Listening on /ip4/127.0.0.1/tcp/1369/p2p/12D3KooWPYGtmipAS1tTPok6hCFCRdo43Rq27tAYcc8crczGGKuX
+2025-10-20T09:53:09.433536Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWPp3bYJf6BCvCuYw5F27Tnt1LHhiMPBVgyB5XGxSsuw9b
+2025-10-20T09:53:52.783893Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWLDCeuYJodHTASEn8GZbBhENDgG7TN3S2GDXRbkme5J3U
+2025-10-20T09:55:30.094165Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWHqtVozWFt5yLGb2FUGPuEhNVLCedp8rAHTfDrLpJDCMH
+2025-10-20T10:04:53.123402Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWEoSU4EQEzyLAD3zeokWxiATWxVkhWujwU6QGi4gz8QF6
+2025-10-20T10:15:31.957171Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWChXxkHeeTUZeUzyv1GH4uyhRGerwMB6FnhNZ1j5wpcHE
+2025-10-20T10:15:31.965651Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/1369
+2025-10-20T10:15:31.965895Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/1369
+2025-10-20T10:15:31.966076Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/1369

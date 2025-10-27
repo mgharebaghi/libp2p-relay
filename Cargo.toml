@@ -1,0 +1,12 @@
+[package]
+name = "libp2p-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libp2p = { version = "0.56.0", features = ["full"] }
+anyhow = "1.0.100"
+tokio = { version = "1.48.0", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3.0", features = ["fmt", "env-filter"] }
+tracing-appender = "0.2"
