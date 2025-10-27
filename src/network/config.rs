@@ -1,3 +1,6 @@
+use std::num::NonZeroUsize;
+use std::time::Duration;
+
 use anyhow::Result;
 use libp2p::Multiaddr;
 use libp2p::PeerId;
@@ -27,12 +30,20 @@ pub async fn swarm_for_relay() -> Result<(Swarm<RelayServerBehaviour>, PeerId)> 
         kad: kad::Behaviour::new(local_peer_id, kad::store::MemoryStore::new(local_peer_id)),
     };
 
+    // Configure swarm with extended timeouts for long-running connections
+    let swarmconf = libp2p::swarm::Config::with_tokio_executor()
+        .with_idle_connection_timeout(Duration::from_secs(30000000)) // 1 year
+        .with_notify_handler_buffer_size(NonZeroUsize::new(2048).unwrap())
+        .with_per_connection_event_buffer_size(4096)
+        .with_max_negotiating_inbound_streams(usize::MAX);
+
     let mut swarm = SwarmBuilder::with_existing_identity(local_key)
         .with_tokio()
         .with_tcp(tcp::Config::default(), noise::Config::new, || {
             yamux::Config::default()
         })?
         .with_behaviour(|_| behaviour)?
+        .with_swarm_config(|_| swarmconf)
         .build();
 
     let multiaddr: Multiaddr = format!("/ip4/0.0.0.0/tcp/0/p2p/{}", local_peer_id).parse()?;
