@@ -35,6 +35,7 @@ pub async fn start_network(
                 RelayServerBehaviourEvent::Identify(ev) => match ev {
                     identify::Event::Received { info, .. } => {
                         info!("info of protocols: {:?}", info.protocols);
+                        info!("listened address: {:?}", info.listen_addrs);
                     }
                     _ => {}
                 },
