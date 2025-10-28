@@ -12,8 +12,10 @@ pub async fn start_network(
     loop {
         match swarm.select_next_some().await {
             libp2p::swarm::SwarmEvent::NewListenAddr { address, .. } => {
-                info!("Listening on {:?}", address);
-                swarm.add_external_address(address);
+                if !address.to_string().contains("127.0.0.1") {
+                    info!("Listening on {:?}", address);
+                    swarm.add_external_address(address);
+                }
             }
             SwarmEvent::ConnectionEstablished {
                 peer_id, endpoint, ..
