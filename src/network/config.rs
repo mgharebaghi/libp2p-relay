@@ -20,8 +20,13 @@ pub async fn swarm_for_relay() -> Result<(Swarm<RelayServerBehaviour>, PeerId)> 
     let local_key = libp2p::identity::Keypair::generate_ed25519();
     let local_peer_id = libp2p::PeerId::from(local_key.public());
 
+    let relay_conf = relay::Config {
+        max_reservations: 1024,
+        ..Default::default()
+    };
+
     let behaviour = RelayServerBehaviour {
-        relay: relay::Behaviour::new(local_peer_id, relay::Config::default()),
+        relay: relay::Behaviour::new(local_peer_id, relay_conf),
         identify: identify::Behaviour::new(identify::Config::new(
             "/relay/0.0.1".to_string(),
             local_key.public(),
@@ -49,8 +54,8 @@ pub async fn swarm_for_relay() -> Result<(Swarm<RelayServerBehaviour>, PeerId)> 
     let multiaddr: Multiaddr = format!("/ip4/0.0.0.0/tcp/0/p2p/{}", local_peer_id).parse()?;
     swarm.listen_on(multiaddr)?;
 
-    let bootstrap_relay: Multiaddr = "/ip4/192.168.1.120/tcp/55402".parse()?;
-    swarm.dial(bootstrap_relay)?;
+    // let bootstrap_relay: Multiaddr = "/ip4/192.168.1.120/tcp/55402".parse()?;
+    // swarm.dial(bootstrap_relay)?;
 
     Ok((swarm, local_peer_id))
 }
