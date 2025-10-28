@@ -21,10 +21,6 @@ pub async fn start_network(
                 peer_id, endpoint, ..
             } => {
                 info!("Connection established with {:?}", peer_id);
-                swarm
-                    .behaviour_mut()
-                    .kad
-                    .add_address(&peer_id, endpoint.get_remote_address().clone());
             }
             SwarmEvent::ConnectionClosed { peer_id, cause, .. } => {
                 warn!("Connection closed with: {}", peer_id);
@@ -35,9 +31,10 @@ pub async fn start_network(
                     info!("Relay Events: {:?}", ev);
                 }
                 RelayServerBehaviourEvent::Identify(ev) => match ev {
-                    identify::Event::Received { info, .. } => {
+                    identify::Event::Received { info, peer_id, .. } => {
                         info!("info of protocols: {:?}", info.protocols);
                         info!("listened address: {:?}", info.listen_addrs);
+                        info!("peerid: {:?}", peer_id);
                     }
                     _ => {}
                 },
