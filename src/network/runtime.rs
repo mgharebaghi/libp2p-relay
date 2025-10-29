@@ -17,14 +17,13 @@ pub async fn start_network(
                     swarm.add_external_address(address);
                 }
             }
-            SwarmEvent::ConnectionEstablished {
-                peer_id, endpoint, ..
-            } => {
+            SwarmEvent::ConnectionEstablished { peer_id, .. } => {
                 info!("Connection established with {:?}", peer_id);
             }
             SwarmEvent::ConnectionClosed { peer_id, cause, .. } => {
                 warn!("Connection closed with: {}", peer_id);
                 warn!("Cause: {:?}", cause);
+                swarm.behaviour_mut().kad.remove_peer(&peer_id);
             }
             libp2p::swarm::SwarmEvent::Behaviour(event) => match event {
                 RelayServerBehaviourEvent::Relay(ev) => {
@@ -32,19 +31,19 @@ pub async fn start_network(
                 }
                 RelayServerBehaviourEvent::Identify(ev) => match ev {
                     identify::Event::Received { info, peer_id, .. } => {
-                        info!("info of protocols: {:?}", info.protocols);
-                        info!("listened address: {:?}", info.listen_addrs);
-                        info!("peerid: {:?}", peer_id);
+                        if info.listen_addrs.len() > 0 {
+                            swarm
+                                .behaviour_mut()
+                                .kad
+                                .add_address(&peer_id, info.listen_addrs[0].clone());
+                        }
                     }
                     _ => {}
                 },
-                RelayServerBehaviourEvent::Ping(ev) => {
-                    info!("ping: {:?}", ev);
+                RelayServerBehaviourEvent::Ping(_ev) => {
+                    // info!("ping: {:?}", ev);
                 }
                 RelayServerBehaviourEvent::Kad(ev) => match ev {
-                    kad::Event::InboundRequest { request } => {
-                        info!("Received Kademlia inbound request: {:?}", request);
-                    }
                     kad::Event::RoutingUpdated {
                         peer,
                         is_new_peer,

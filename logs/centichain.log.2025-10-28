@@ -235,3 +235,19 @@
 2025-10-28T12:21:08.328523Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:27: Connection closed with: 12D3KooWPn5KVvjYv5dnFSTvoDw6HaCKFY93tVXvKJHXXuoSbT5t
 2025-10-28T12:21:08.328731Z  WARN libp2p_test::network::runtime: src\network\runtime.rs:28: Cause: Some(IO(Custom { kind: Other, error: Error(Right(Decode(Io(Os { code: 10054, kind: ConnectionReset, message: "An existing connection was forcibly closed by the remote host." })))) }))
 2025-10-28T12:21:08.328960Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:32: Relay Events: ReservationClosed { src_peer_id: PeerId("12D3KooWPn5KVvjYv5dnFSTvoDw6HaCKFY93tVXvKJHXXuoSbT5t") }
+2025-10-28T16:58:45.262905Z  INFO libp2p_swarm: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-swarm-0.47.0\src\lib.rs:356: local_peer_id=12D3KooWQXhNz36Leq8b3zm6JewfnrEk6Y32GGFY1PQdHmaRGEh5
+2025-10-28T16:58:45.271317Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/172.19.0.1/tcp/62262
+2025-10-28T16:58:45.271580Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/192.168.1.120/tcp/62262
+2025-10-28T16:58:45.271741Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:15: Listening on /ip4/127.0.0.1/tcp/62262
+2025-10-28T16:58:45.774454Z  WARN libp2p_kad::behaviour: C:\Users\mghar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libp2p-kad-0.48.0\src\behaviour.rs:2591: Failed to trigger bootstrap: No known peers.
+2025-10-28T17:00:13.116156Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:22: Connection established with PeerId("12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2")
+2025-10-28T17:00:13.117579Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:34: info of protocols: ["/ipfs/ping/1.0.0", "/ipfs/id/push/1.0.0", "/libp2p/circuit/relay/0.2.0/stop", "/ipfs/id/1.0.0"]
+2025-10-28T17:00:13.117761Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:35: listened address: []
+2025-10-28T17:00:13.117916Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:36: peerid: PeerId("12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2")
+2025-10-28T17:00:13.118156Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:41: ping: Event { peer: PeerId("12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2"), connection: ConnectionId(1), result: Ok(758.3µs) }
+2025-10-28T17:00:13.118546Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:30: Relay Events: ReservationReqAccepted { src_peer_id: PeerId("12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2"), renewed: false }
+2025-10-28T17:00:13.120244Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:34: info of protocols: ["/ipfs/ping/1.0.0", "/ipfs/id/push/1.0.0", "/libp2p/circuit/relay/0.2.0/stop", "/ipfs/kad/1.0.0", "/ipfs/id/1.0.0"]
+2025-10-28T17:00:13.120453Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:35: listened address: [/ip4/127.0.0.1/tcp/62262/p2p/12D3KooWQXhNz36Leq8b3zm6JewfnrEk6Y32GGFY1PQdHmaRGEh5/p2p-circuit/p2p/12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2, /ip4/172.19.0.1/tcp/62262/p2p/12D3KooWQXhNz36Leq8b3zm6JewfnrEk6Y32GGFY1PQdHmaRGEh5/p2p-circuit/p2p/12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2, /ip4/192.168.1.120/tcp/62262/p2p/12D3KooWQXhNz36Leq8b3zm6JewfnrEk6Y32GGFY1PQdHmaRGEh5/p2p-circuit/p2p/12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2]
+2025-10-28T17:00:13.120714Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:36: peerid: PeerId("12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2")
+2025-10-28T17:00:13.628799Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:45: Received Kademlia inbound request: FindNode { num_closer_peers: 0 }
+2025-10-28T17:00:28.133388Z  INFO libp2p_test::network::runtime: src\network\runtime.rs:41: ping: Event { peer: PeerId("12D3KooWQ7psKiR6am8RXVjUeSYhMkb7BaaTKJAR7GpU3MgN22z2"), connection: ConnectionId(1), result: Ok(578.8µs) }
