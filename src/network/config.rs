@@ -21,8 +21,15 @@ pub async fn swarm_for_relay() -> Result<(Swarm<RelayServerBehaviour>, PeerId)> 
     let local_peer_id = libp2p::PeerId::from(local_key.public());
 
     let relay_conf = relay::Config {
-        max_reservations: 1024,
-        ..Default::default()
+        max_reservations: usize::MAX,
+        max_reservations_per_peer: usize::MAX,
+        reservation_duration: Duration::from_secs(3600),
+        reservation_rate_limiters: vec![],
+        max_circuits: usize::MAX,
+        max_circuits_per_peer: usize::MAX,
+        max_circuit_duration: Duration::from_secs(3600),
+        max_circuit_bytes: u64::MAX,
+        circuit_src_rate_limiters: vec![],
     };
 
     let behaviour = RelayServerBehaviour {
